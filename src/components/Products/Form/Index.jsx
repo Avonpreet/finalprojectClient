@@ -77,7 +77,7 @@ const ProductForm = ({ endpoint, preload }) => {
     })
     .then(({ data }) => {
       if (data) {
-        if(endpoint == "products"){
+        if(endpoint === "products"){
           setNotification({
             type: "success",
             message: "Product was created successfully"

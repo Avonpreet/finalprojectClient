@@ -17,7 +17,7 @@ const Show = () => {
     .then(({ data }) => {
       setUserDetails(data);
     });
-  }, []);
+  }, [globalStore, user]);
 
   return (
     userDetails ? (
@@ -37,6 +37,7 @@ const Show = () => {
               width={150}
               height={150}
               className="mr-3"
+              alt="info"
             />
             <Media.Body>
               <h5>{userDetails.name}</h5>

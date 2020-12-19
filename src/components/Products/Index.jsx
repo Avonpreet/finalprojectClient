@@ -4,7 +4,7 @@ import { NotificationContext } from '../shared/Notifications';
 import { GlobalStoreContext } from '../shared/Globals';
 import { UserContext } from '../Authentication/UserProvider';
 import Axios from 'axios';
-import { Container, Card, Button, CardDeck, CardGroup, Row, Col, Nav } from 'react-bootstrap';
+import { Container, Card, Button, Row, Col } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
 const Products = () => {

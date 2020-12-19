@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { Jumbotron, Container } from 'react-bootstrap';
+import { Container } from 'react-bootstrap';
 
 const Header = ({title, children}) => {
   useEffect(() => {
